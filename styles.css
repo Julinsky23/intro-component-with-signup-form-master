@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+:root{
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: var(--red);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    /*display: flex;
+    justify-content: center;
+    overflow-x: hidden;*/
+    
+}
+
+.container{
+    flex-direction: column;
+    margin: auto auto 2rem auto;
+    display: flex;
+    /*
+    padding:260px;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    text-align: left;
+    margin: auto auto 2rem auto;*/
+}
+
+
+.card{
+    width:450px;
+    background-color: white;
+    border-radius: 20px;
+    overflow:hidden;
+    margin: 4.5rem 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trial-button{
+    background-color: var(--green);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.try_card{
+    align-items: flex-end;
+    width: 50%;
+    margin: 4rem 600px;
+    padding: 1rem;
+    box-shadow: 0px 8px 0px rgba(0,0,0,0.14688);
+    overflow: hidden;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 20px;
+
+
+    /*text zentrieren*/
+    display: flex; /*Element hat jetzt Achsen*/
+    justify-content: center;/*horizontal*/
+    align-items: center;/*vertikal*/
+
+}
+
+.cardparagraph{
+    color: var(--grayish-blue);
+}
+
+
+.text{
+    display: flex; 
+    flex-direction: column;
+    margin: 9rem 50px;
+    max-width: 500px;
+    color: white;
+}
+
+.input{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
