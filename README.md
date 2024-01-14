@@ -24,7 +24,7 @@ Users should be able to:
 ### Screenshot
 **Desktop Version**
 
-<img src="solution-pictures/intro-component-desktop.png" width="400">
+<img src="solution-pictures/intro-component-desktop.png" width="600">
 
 ## My process
 
